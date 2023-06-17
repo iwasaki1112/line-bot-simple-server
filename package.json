@@ -1,6 +1,6 @@
 {
   "name": "line-bot-simple-server",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "",
   "main": "./dist/index.js",
   "scripts": {
@@ -9,6 +9,10 @@
     "dev:localServer": "node ./dist/index.js",
     "start": "concurrently \"npm:dev:*\"",
     "watch": "npx tsc --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iwasaki1112/line-bot-simple-server.git"
   },
   "keywords": [],
   "author": "",
