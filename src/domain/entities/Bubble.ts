@@ -1,4 +1,4 @@
-import { Box, Content } from "./content"
+import { Box } from "./content"
 
 export class Bubble {
   type: 'bubble'

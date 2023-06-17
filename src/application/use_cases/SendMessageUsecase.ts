@@ -4,8 +4,11 @@ import { Flex } from "../../domain/entities/Flex"
 import https from 'https'
 
 export class SendMessageUsecase {
-  
-  constructor(private _config: ClientConfig) { }
+  private _config: ClientConfig
+
+  constructor(config: ClientConfig) {
+    this._config = config
+  }
 
   public execute(replyToken: string, message: Flex | Carousel) {
     const dataString = JSON.stringify({
