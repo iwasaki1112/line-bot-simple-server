@@ -5,7 +5,7 @@
   "main": "./dist/index.js",
   "scripts": {
     "test": "jest",
-    "dev:localtunnel": "npx lt --port 8081 --subdomain iwasaki1112",
+    "dev:localtunnel": "npx lt --port 8081 --subdomain enterYourPreferredSubdomain",
     "dev:localServer": "node ./dist/index.js",
     "start": "concurrently \"npm:dev:*\"",
     "watch": "npx tsc --watch"
