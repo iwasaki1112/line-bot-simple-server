@@ -32,3 +32,26 @@ const message: FlexMessage = {
     }
   }
 }
+
+/my-app
+├── /node_modules
+├── /src
+│   ├── /application
+│   │   ├── /use_cases
+│   │   │   └── createLineMessage.ts
+│   ├── /domain
+│   │   ├── /entities
+│   │   │   └── Bubble.ts
+│   │   │   └── Carousel.ts
+│   │   │   └── content.ts
+│   │   │   └── Flex.ts
+│   ├── /interfaces
+│   │   ├── /controllers
+│   │   │   └── LineMessage.ts
+│   ├── /infrastructure
+│   │   ├── /web
+│   │   │   └── Router.ts
+│   └── index.ts
+├── package.json
+├── tsconfig.json
+└── README.md
