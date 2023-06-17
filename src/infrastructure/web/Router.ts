@@ -8,7 +8,7 @@ export class Router {
   private _lineMessageController: LineMessageController
   private _messageProvider: MessageProvider
 
-  constructor(middlewareConfig: MiddlewareConfig, lineMessageController: LineMessageController, messageProvider: MessageProvider) {    
+  constructor(middlewareConfig: MiddlewareConfig, lineMessageController: LineMessageController, messageProvider: MessageProvider) {
     this._lineMessageController = lineMessageController
     this._messageProvider = messageProvider
     this._router = express.Router()
