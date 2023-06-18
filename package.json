@@ -1,6 +1,6 @@
 {
   "name": "line-bot-simple-server",
-  "version": "0.1.42",
+  "version": "0.1.5",
   "description": "",
   "main": "./dist/index.js",
   "scripts": {
