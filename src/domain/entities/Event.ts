@@ -1,4 +1,4 @@
-export type Event = {
+export interface Event {
   type: 'message',
   message: {
     type: 'text',
